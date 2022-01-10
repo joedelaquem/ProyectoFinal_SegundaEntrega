@@ -114,7 +114,7 @@ header nav div ul li a:hover{
     font-size: 4rem;
 }
 .titulo_parrafo{
-    width: 70%;
+    width: 80%;
     padding: 1.5rem 0rem 1.5rem 0rem;
     font-size: 1.5rem;
 }
@@ -261,90 +261,72 @@ footer{
 
 /*Main--------------------------------------------*/
 .contenedor_nuestrotrabajo{
-    display: inline-block;
-    position: relative;
-    bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 50px;
+    background-image: url(./Assets/nuestro\ trabajo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 10px 10px 15px grey;
 }
 .contenedor_nuestrotrabajo h1{
-    display: inline-block;
-    position: relative;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4rem;
+    margin-bottom: 40px;
+    margin-left: 30px;
     color: white;
-    top: 20rem;
-    left: 2rem;
-    z-index: 10;
-}
-.contenedor_nuestrotrabajo img{
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    box-shadow: -10px 20px 15px grey;
-    z-index: 1;
 }
 .contenedor_nuestrotrabajo p{
-    display: inline-block;
-    position: relative;
-    z-index: 10;
-    top: 26rem;
     color: white;
-    width: 60%;
-    right: 20rem;
     font-size: 1.2rem;
+    width: 900px;
+    margin-left: 30px;
 }
 
 /*----------------*/
 
 .contenedor_iframe{
-    display: inline-block;
-    position: relative;
-    padding: 3rem 10rem 3rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
 }
 .contenedor_iframe p{
-    display: inline-block;
-    position: relative;
-    width: 30%;
-    bottom: 3rem;
+    width: 500px;
+    margin-top: 50px;
 }
 .contenedor_iframe iframe{
-    display: inline-block;
-    position: relative;
-    left: 10rem;
-    box-shadow: -10px 20px 15px grey;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px grey;
 }
 
 /*----------------*/
 
+
+
 .contenedor_atat img{
-    display: inline-block;
-    position: relative;
-    width: 15rem;
-    height: 15rem;
-    left: 10rem;
-    box-shadow: -10px 20px 15px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 10px 10px 15px grey;
     border-radius: 5%;
+    height: 350px;
+    width: 270px;
 }
 .contenedor_atat p{
-    display: inline-block;
-    position: relative;
-    width: 17%;
-    right: 5rem;
-    top: 18rem;
+    
 }
 
 .contenedor_conectando img{
-    display: inline-block;
-    position: relative;
-    width: 15rem;
-    height: 15rem;
-    left: 35rem;
-    bottom: 15.3rem;
+    
     box-shadow: -10px 20px 15px grey;
     border-radius: 5%;
 }
 .contenedor_conectando p{
-    display: inline-block;
-    position: relative;
+    
     width: 17%;
     left: 20rem;
     top: 2.5rem;
@@ -352,38 +334,19 @@ footer{
 
 
 .contenedor_expandiendo img{
-    display: inline-block;
-    position: relative;
-    width: 15rem;
-    height: 15rem;
-    left: 60rem;
-    bottom: 30.7rem;
+    
     box-shadow: -10px 20px 15px grey;
     border-radius: 5%;
 }
 .contenedor_expandiendo p{
-    display: inline-block;
-    position: relative;
+    
     width: 17%;
-    left: 45rem;
-    bottom: 12.7rem;
+    
+    
 }
 
 
-.izquierda img{
-    display: inline-block;
-    position: relative;
-    width: 3rem;
-    top: 17.5rem;
-    left: 3rem;
-}
-.derecha img{
-    display: inline-block;
-    position: relative;
-    width: 3rem;
-    bottom: 33rem;
-    left: 93%;
-}
+
 /*Main--------------------------------------------*/
 
 
