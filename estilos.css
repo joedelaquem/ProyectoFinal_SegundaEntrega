@@ -1,0 +1,644 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Index*/
+/*Header--------------------------------------------*/
+header{
+    background-color: white;
+}
+.header_icono{
+    display: flex;
+    height: 6rem;
+    position: relative;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.lista_item{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+
+header nav div ul li a{
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    padding: 0.5rem;
+    border-width: 0.10rem;
+    border-color: black;
+    color: black;
+    box-shadow: 10px 10px 10px lightgrey;
+    transition: box-shadow 0.5s;
+}
+header nav div ul li a:hover{
+    box-shadow: 0px 0px 30px red;
+}
+.select_idioma{
+    display: inline-block;
+    position: absolute;
+    top: 3rem;
+    left: 90%;
+    height: 2.7rem;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0.10rem;
+    border-color: black;
+    color: black;
+    box-shadow: 10px 10px 15px grey;
+    font-size: 1rem;
+    background-color: white;
+    transition: box-shadow 0.5s;
+}
+.select_idioma:hover{
+    box-shadow: 0px 0px 30px red;
+}
+/*Header--------------------------------------------*/
+
+/*Main--------------------------------------------*/
+.contenedor_imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url(./Assets/Deathstar\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 10px 10px 15px grey;
+    margin-bottom: 150px;
+}
+.main_h1{
+    display: flex;
+    color: white;
+    font-family: serif;
+    font-size: 3.5rem;
+}
+.main_button{
+    margin-top: 60px;
+    height: 50px;
+    width: 90px;
+    border-radius: 0;
+    border: none;
+    transition: width, box-shadow, 1s;
+}
+.main_button:hover{
+    width: 170px;
+    box-shadow: 0px 0px 70px white;
+}
+.main_banner{
+    width: 100%;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.contenedor_titulo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.titulo{
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+}
+.titulo_parrafo{
+    width: 70%;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    font-size: 1.5rem;
+}
+.contenedor_nota{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.contenedor_nota--Stormtroopers{
+    height: 250px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 15px grey;
+    margin-right: 40px;
+}
+.contenedor_nota--parrafo{
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    font-size: 1.2rem;
+}
+.contenedor_nota2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.oficialesImperiales{
+    height: 250px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 15px grey;
+    margin-right: 40px;
+}
+.contenedor_nota--parrafo2{
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    font-size: 1.2rem;
+}
+.contenedor_nota3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.propaganda{
+    height: 350px;
+    border-radius: 2%;
+    box-shadow: 10px 10px 15px grey;
+    margin-right: 40px;
+}
+.contenedor_nota--parrafo3{
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    font-size: 1.2rem;
+}
+/*Main--------------------------------------------*/
+/*Footer------------------------------------------*/
+footer{
+    background-color: rgb(63, 63, 63);
+}
+.footer_icono{
+    display: inline-block;
+    height: 6rem;
+    position: relative;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.footer_contenedor2{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    bottom: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer_contenedor2 a{
+    display: inline-block;
+    position: relative;
+    top: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+.footer_contenedor2 a:hover{
+    color: blue;
+}
+.contenedor3{
+    display: inline-block;
+    position: relative;
+    bottom: 3rem;
+    left: 50%;
+}
+.contenedor3 h4{
+    display: inline-block;
+    position: relative;
+    font-size: 1.5rem;
+    color: white;
+    bottom: 2rem;
+}
+.contenedor3 a{
+    display: inline-block;
+    position: relative;
+    right: 10rem;
+    top: 1rem;
+}
+.face{
+    display: inline-block;
+    position: relative;
+    width: 2rem;
+}
+.insta{
+    display: inline-block;
+    position: relative;
+    width: 2.6rem;
+    left: 1rem;
+    top: 0.3rem;
+}
+.twitter{
+    display: inline-block;
+    position: relative;
+    width: 2rem;
+    left: 2rem;
+}
+.h5{
+    display: inline-block;
+    position: relative;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.h5 a{
+    display: inline-block;
+    position: relative;
+    font-size: 1.2rem;
+    color: blue;
+    transition: color 1s;
+}
+.h5 a:hover{
+    color: red;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*Nuestro Trabajo*/
+
+/*Main--------------------------------------------*/
+.contenedor_nuestrotrabajo{
+    display: inline-block;
+    position: relative;
+    bottom: 2rem;
+}
+.contenedor_nuestrotrabajo h1{
+    display: inline-block;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    color: white;
+    top: 20rem;
+    left: 2rem;
+    z-index: 10;
+}
+.contenedor_nuestrotrabajo img{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    box-shadow: -10px 20px 15px grey;
+    z-index: 1;
+}
+.contenedor_nuestrotrabajo p{
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    top: 26rem;
+    color: white;
+    width: 60%;
+    right: 20rem;
+    font-size: 1.2rem;
+}
+
+/*----------------*/
+
+.contenedor_iframe{
+    display: inline-block;
+    position: relative;
+    padding: 3rem 10rem 3rem 10rem;
+}
+.contenedor_iframe p{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    bottom: 3rem;
+}
+.contenedor_iframe iframe{
+    display: inline-block;
+    position: relative;
+    left: 10rem;
+    box-shadow: -10px 20px 15px grey;
+}
+
+/*----------------*/
+
+.contenedor_atat img{
+    display: inline-block;
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    left: 10rem;
+    box-shadow: -10px 20px 15px grey;
+    border-radius: 5%;
+}
+.contenedor_atat p{
+    display: inline-block;
+    position: relative;
+    width: 17%;
+    right: 5rem;
+    top: 18rem;
+}
+
+.contenedor_conectando img{
+    display: inline-block;
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    left: 35rem;
+    bottom: 15.3rem;
+    box-shadow: -10px 20px 15px grey;
+    border-radius: 5%;
+}
+.contenedor_conectando p{
+    display: inline-block;
+    position: relative;
+    width: 17%;
+    left: 20rem;
+    top: 2.5rem;
+}
+
+
+.contenedor_expandiendo img{
+    display: inline-block;
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    left: 60rem;
+    bottom: 30.7rem;
+    box-shadow: -10px 20px 15px grey;
+    border-radius: 5%;
+}
+.contenedor_expandiendo p{
+    display: inline-block;
+    position: relative;
+    width: 17%;
+    left: 45rem;
+    bottom: 12.7rem;
+}
+
+
+.izquierda img{
+    display: inline-block;
+    position: relative;
+    width: 3rem;
+    top: 17.5rem;
+    left: 3rem;
+}
+.derecha img{
+    display: inline-block;
+    position: relative;
+    width: 3rem;
+    bottom: 33rem;
+    left: 93%;
+}
+/*Main--------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------*/
+
+/*Carreras*/
+
+/*Main--------------------------------------------*/
+.contenedor_carreras{
+    display: inline-block;
+    position: relative;
+    bottom: 2rem;
+}
+.contenedor_carreras img{
+    display: inline-block;
+    position: relative;
+    width: 84rem;
+    z-index: 1;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_carreras h1{
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    top: 22rem;
+    left: 2rem;
+    font-size: 4rem;
+    color: white;
+}
+.contenedor_carreras button{
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    top: 26rem;
+    right: 65%;
+    padding: 0.8rem;
+    width: 12rem;
+    border-style: none;
+    border-radius: 0;
+    font-size: 1rem;
+}
+
+
+
+
+
+.rangos_h2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 2rem;    
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_Gran-almirante{
+    display: inline-block;
+    position: relative;
+    padding: 0 0 15rem 0;
+    left: 3rem;
+}
+.contenedor_Gran-almirante h3{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor_Gran-almirante img{
+    display: inline-block;
+    position: relative;
+    right: 20rem;
+    top: 10rem;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_Gran-almirante p{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    right: 10rem;
+    top: 10rem;
+}
+.contenedor_almirante-de-flota{
+    display: inline-block;
+    position: relative;
+    padding: 0 0 15rem 0;
+    left: 3rem;
+}
+.contenedor_almirante-de-flota h3{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor_almirante-de-flota img{
+    display: inline-block;
+    position: relative;
+    right: 25rem;
+    top: 10rem;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_almirante-de-flota p{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    right: 10rem;
+    top: 10rem;
+}
+.contenedor_almirante{
+    display: inline-block;
+    position: relative;
+    padding: 0 0 15rem 0;
+    left: 3rem;
+}
+.contenedor_almirante h3{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor_almirante img{
+    display: inline-block;
+    position: relative;
+    right: 12rem;
+    top: 10rem;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_almirante p{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    left: 2rem;
+    top: 10rem;
+}
+.contenedor_vicealmirante{
+    display: inline-block;
+    position: relative;
+    padding: 0 0 15rem 0;
+    left: 3rem;
+}
+.contenedor_vicealmirante h3{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor_vicealmirante img{
+    display: inline-block;
+    position: relative;
+    right: 18rem;
+    top: 10rem;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_vicealmirante p{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 10rem;
+}
+.contenedor_contralmirante{
+    display: inline-block;
+    position: relative;
+    padding: 0 0 15rem 0;
+    left: 3rem;
+}
+.contenedor_contralmirante h3{
+    display: inline-block;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contenedor_contralmirante img{
+    display: inline-block;
+    position: relative;
+    right: 20rem;
+    top: 10rem;
+    box-shadow: -10px 20px 15px grey;
+}
+.contenedor_contralmirante p{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 10rem;
+    right: 2rem;
+}
+/*Main--------------------------------------------*/
+
+/*Unite al Imperio*/
+
+
+/*Main--------------------------------------------*/
+.contenedor_unite{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    bottom: 2rem;
+}
+.contenedor_unite img{
+    width: 100%;
+    z-index: 1;
+}
+.contenedor_unite h1{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 5rem;
+    z-index: 10;
+    top: 6rem;
+    left: 29%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor form{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: 70px 70px 70px 70px 150px 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor form label{
+    align-self: center;
+    padding: 1rem 0 1rem 1rem;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedor form input{
+    align-self: center;
+    justify-self: start;
+    height: 2rem;
+    width: 15rem;
+    border: 2px solid black;
+}
+.contenedor form select{
+    align-self: center;
+    justify-self: start;
+    height: 2rem;
+    width: 15rem;
+    border: 2px solid black;
+}
+.contenedor form textarea{
+    align-self: center;
+    justify-self: start;
+    height: 100%;
+    width: 15rem;
+    border: 2px solid black;
+}
+.contenedor form button{
+    align-self: center;
+    justify-self: center;
+    height: 20%;
+    width: 60%;
+    border: 2px solid black;
+}
+/*Main--------------------------------------------*/
